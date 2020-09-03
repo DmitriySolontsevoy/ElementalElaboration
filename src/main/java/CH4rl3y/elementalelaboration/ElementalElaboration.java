@@ -1,45 +1,22 @@
 package CH4rl3y.elementalelaboration;
 
+import CH4rl3y.elementalelaboration.constants.Constants;
+import CH4rl3y.elementalelaboration.services.registry.RegistryService;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
 
-@Mod(modid = ElementalElaboration.MODID, version = ElementalElaboration.VERSION)
-public class ElementalElaboration
-{
-    public static final String MODID = "elementalelaboration";
-    public static final String VERSION = "1.0";
+@Mod(modid = Constants.MOD_ID, version = Constants.VERSION)
+public class ElementalElaboration {
 
     @EventHandler
-    public void init(FMLInitializationEvent event)
-    {
-        Block amethystOre = new ModBlock(Material.rock, "amethystOre");
-        GameRegistry.registerBlock(amethystOre, "amethystOre");
-    }
+    public void init(FMLInitializationEvent event) {
+        RegistryService.registerAll();
 
-    private class ModBlock extends Block
-    {
-        public ModBlock(Material material, String blockName)
-        {
-            super(material);
-            this.setBlockName(blockName);
-            this.setBlockTextureName(MODID + ":" + blockName);
-            this.setCreativeTab(CreativeTabs.tabBlock);
-        }
-    }
-
-    private class ModBlock2 extends Block
-    {
-        public ModBlock2(Material material, String blockName)
-        {
-            super(material);
-            this.setBlockName(blockName);
-            this.setBlockTextureName(MODID + ":" + blockName);
-            this.setCreativeTab(CreativeTabs.tabBlock);
-        }
+        Constants.creativeTab.setIcon(
+                Item.getItemFromBlock(GameRegistry.findBlock(Constants.MOD_ID, "aluminumOre"))
+        );
     }
 }

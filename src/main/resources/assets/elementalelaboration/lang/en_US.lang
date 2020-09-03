@@ -1,1 +1,4 @@
-tile.amethystOre.name=Amethyst Ore
+tile.aluminumOre.name=Aluminum Ore
+tile.cadmiumOre.name=Cadmium Ore
+
+itemGroup.elementalElaboration=Elemental Elaboration
