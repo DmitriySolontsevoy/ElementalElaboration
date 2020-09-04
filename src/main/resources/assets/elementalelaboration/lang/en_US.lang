@@ -1,4 +1,7 @@
 tile.aluminumOre.name=Aluminum Ore
 tile.cadmiumOre.name=Cadmium Ore
+tile.chromiumOre.name=Chromium Ore
+
+item.dolomiteCrystal.name=Dolomite Crystal
 
 itemGroup.elementalElaboration=Elemental Elaboration
