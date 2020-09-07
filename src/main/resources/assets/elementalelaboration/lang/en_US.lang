@@ -1,7 +1,74 @@
+# Simple Blocks
+tile.dolomiteBlock.name=Dolomite Block
+
+# Item Dropping Ores
+tile.dolomiteOre.name=Dolomite Ore
+tile.sulfurOre.name=Sulfur Ore
+
+# Regular Ores
 tile.aluminumOre.name=Aluminum Ore
 tile.cadmiumOre.name=Cadmium Ore
 tile.chromiumOre.name=Chromium Ore
+tile.cobaltOre.name=Cobalt Ore
+tile.copperOre.name=Copper Ore
+tile.hafniumOre.name=Hafnium Ore
+tile.indiumOre.name=Indium Ore
+tile.iridiumOre.name=Iridium Ore
+tile.leadOre.name=Lead Ore
+tile.lithiumOre.name=Lithium Ore
+tile.magnesiumOre.name=Magnesium Ore
+tile.manganeseOre.name=Manganese Ore
+tile.molybdenumOre.name=Molybdenum Ore
+tile.nickelOre.name=Nickel Ore
+tile.niobiumOre.name=Niobium Ore
+tile.osmiumOre.name=Osmium Ore
+tile.palladiumOre.name=Palladium Ore
+tile.platinumOre.name=Platinum Ore
+tile.rhodiumOre.name=Rhdoium Ore
+tile.silverOre.name=Silver Ore
+tile.thoriumOre.name=Thorium Ore
+tile.tinOre.name=Tin Ore
+tile.titaniumOre.name=Titanium Ore
+tile.tungstenOre.name=Tungsten Ore
+tile.uraniumOre.name=Uranium Ore
+tile.zincOre.name=Zinc Ore
+tile.zirconiumOre.name=Zirconium Ore
 
+# Tile Entities
+tile.burnGenerator.name=Burn Generator
+
+# Regular Items
 item.dolomiteCrystal.name=Dolomite Crystal
+item.sulfur.name=Sulfur
 
+# Metal Ingots
+item.aluminumIngot.name=Aluminum Ingot
+item.cadmiumIngot.name=Cadmium Ingot
+item.chromiumIngot.name=Chromium Ingot
+item.cobaltIngot.name=Cobalt Ingot
+item.copperIngot.name=Copper Ingot
+item.hafniumIngot.name=Hafnium Ingot
+item.indiumIngot.name=Indium Ingot
+item.iridiumIngot.name=Iridium Ingot
+item.leadIngot.name=Lead Ingot
+item.lithiumIngot.name=Lithium Ingot
+item.magnesiumIngot.name=Magnesium Ingot
+item.manganeseIngot.name=Manganese Ingot
+item.molybdenumIngot.name=Molybdenum Ingot
+item.nickelIngot.name=Nickel Ingot
+item.niobiumIngot.name=Niobium Ingot
+item.osmiumIngot.name=Osmium Ingot
+item.palladiumIngot.name=Palladium Ingot
+item.platinumIngot.name=Platinum Ingot
+item.rhodiumIngot.name=Rhdoium Ingot
+item.silverIngot.name=Silver Ingot
+item.thoriumIngot.name=Thorium Ingot
+item.tinIngot.name=Tin Ingot
+item.titaniumIngot.name=Titanium Ingot
+item.tungstenIngot.name=Tungsten Ingot
+item.uraniumIngot.name=Uranium Ingot
+item.zincIngot.name=Zinc Ingot
+item.zirconiumIngot.name=Zirconium Ingot
+
+# Creative Tab
 itemGroup.elementalElaboration=Elemental Elaboration

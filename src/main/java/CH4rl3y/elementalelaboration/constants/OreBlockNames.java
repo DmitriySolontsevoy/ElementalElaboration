@@ -29,4 +29,7 @@ public final class OreBlockNames {
     public static final String URANIUM_ORE = "uraniumOre";
     public static final String ZINC_ORE = "zincOre";
     public static final String ZIRCONIUM_ORE = "zirconiumOre";
+
+    public static final String DOLOMITE_ORE = "dolomiteOre";
+    public static final String SULFUR_ORE = "sulfurOre";
 }
