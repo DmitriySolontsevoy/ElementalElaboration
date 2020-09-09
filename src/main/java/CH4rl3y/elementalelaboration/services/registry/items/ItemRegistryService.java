@@ -1,5 +1,6 @@
 package CH4rl3y.elementalelaboration.services.registry.items;
 
+import CH4rl3y.elementalelaboration.constants.DustItemNames;
 import CH4rl3y.elementalelaboration.constants.ItemNames;
 import CH4rl3y.elementalelaboration.constants.MetalIngotNames;
 import CH4rl3y.elementalelaboration.utils.helpers.RegistryHelper;
@@ -39,7 +40,48 @@ public final class ItemRegistryService {
         RegistryHelper.registerSingleRegularItem(MetalIngotNames.ZINC_INGOT);
         RegistryHelper.registerSingleRegularItem(MetalIngotNames.ZIRCONIUM_INGOT);
 
-        RegistryHelper.registerSingleRegularItem("sulfurMagnesiumBattery");
-        RegistryHelper.registerSingleRegularItem("quadSulfurMagnesiumBattery");
+        RegistryHelper.registerSingleRegularItem(ItemNames.SULFUR_MAGNESIUM_BATTERY);
+        RegistryHelper.registerSingleRegularItem(ItemNames.QUAD_SULFUR_MAGNESIUM_BATTERY);
+
+        RegistryHelper.registerSingleRegularItem(MetalIngotNames.BRASS_INGOT);
+        RegistryHelper.registerSingleRegularItem(MetalIngotNames.BRONZE_INGOT);
+        RegistryHelper.registerSingleRegularItem(MetalIngotNames.DURALUMIN_INGOT);
+        RegistryHelper.registerSingleRegularItem(MetalIngotNames.NICHROME_INGOT);
+        RegistryHelper.registerSingleRegularItem(MetalIngotNames.SILUMIN_INGOT);
+        RegistryHelper.registerSingleRegularItem(MetalIngotNames.ZR1_NB_INGOT);
+
+        RegistryHelper.registerSingleRegularItem(DustItemNames.ALUMINUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.BRASS_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.BRONZE_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.CADMIUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.CHROMIUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.COAL_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.COBALT_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.COPPER_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.DURALUMIN_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.HAFNIUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.INDIUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.IRIDIUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.LEAD_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.LITHIUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.MAGNESIUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.MANGANESE_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.MOLYBDENUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.NICHROME_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.NICKEL_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.NIOBIUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.OSMIUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.PALLADIUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.PLATINUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.RHODIUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.SILVER_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.STEEL_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.THORIUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.TIN_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.TITANIUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.TUNGSTEN_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.URANIUM_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.ZINC_DUST);
+        RegistryHelper.registerSingleRegularItem(DustItemNames.ZIRCONIUM_DUST);
     }
 }

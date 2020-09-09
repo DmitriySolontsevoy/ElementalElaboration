@@ -2,7 +2,6 @@ package CH4rl3y.elementalelaboration.tileEntities.burnGenerator;
 
 import CH4rl3y.elementalelaboration.constants.Constants;
 import net.minecraft.client.gui.inventory.GuiContainer;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
@@ -11,8 +10,8 @@ public class BGGUI extends GuiContainer {
 
 	private BurnGeneratorTileEntity bg;
 	
-    public BGGUI(IInventory playerInv, BurnGeneratorTileEntity bg, EntityPlayer player) {
-        super(new BGContainerGUI(playerInv, bg, player));
+    public BGGUI(IInventory playerInv, BurnGeneratorTileEntity bg) {
+        super(new BGContainerGUI(playerInv, bg));
 
         this.bg = bg;
         

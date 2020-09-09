@@ -45,11 +45,11 @@ public class BGContainerGUI extends Container {
         return previous;
     }
     
-    public BGContainerGUI(IInventory playerInv, BurnGeneratorTileEntity bg, EntityPlayer playerIn) {
+    public BGContainerGUI(IInventory playerInv, BurnGeneratorTileEntity bg) {
     	this.bg = bg;
     	
     	Slot slotIn = new Slot(bg, 0, 80, 30);
-    	Slot slotCharge = new ChargeInput(playerIn, bg, 1, 40, 30);
+    	Slot slotCharge = new ChargeInput(bg, 1, 40, 30);
     	
         // Tile Entity, Slot 0-1, Slot IDs 0-1
         this.addSlotToContainer(slotIn);

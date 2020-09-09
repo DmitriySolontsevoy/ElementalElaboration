@@ -22,7 +22,6 @@ public final class MetalIngotNames {
     public static final String PLATINUM_INGOT = "platinumIngot";
     public static final String RHODIUM_INGOT = "rhodiumIngot";
     public static final String SILVER_INGOT = "silverIngot";
-    public static final String STEEL_INGOT = "steelIngot";
     public static final String THORIUM_INGOT = "thoriumIngot";
     public static final String TIN_INGOT = "tinIngot";
     public static final String TITANIUM_INGOT = "titaniumIngot";
@@ -30,4 +29,12 @@ public final class MetalIngotNames {
     public static final String URANIUM_INGOT = "uraniumIngot";
     public static final String ZINC_INGOT = "zincIngot";
     public static final String ZIRCONIUM_INGOT = "zirconiumIngot";
+
+    public static final String STEEL_INGOT = "steelIngot";
+    public static final String BRASS_INGOT = "brassIngot";
+    public static final String BRONZE_INGOT = "bronzeIngot";
+    public static final String DURALUMIN_INGOT = "duraluminIngot";
+    public static final String NICHROME_INGOT = "nichromeIngot";
+    public static final String SILUMIN_INGOT = "siluminIngot";
+    public static final String ZR1_NB_INGOT = "zr1NbIngot";
 }

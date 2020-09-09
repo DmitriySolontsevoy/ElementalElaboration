@@ -207,11 +207,11 @@ public class BurnGeneratorTileEntity extends TileEntity implements IInventory {
     public void closeInventory() {}
 
     public GuiContainer getClientGUI(EntityPlayer player) {
-        return new BGGUI(player.inventory, this, player);
+        return new BGGUI(player.inventory, this);
     }
 
     public Container getServerGUI(EntityPlayer player) {
-	    return new BGContainerGUI(player.inventory, this, player);
+	    return new BGContainerGUI(player.inventory, this);
     }
 
     @Override

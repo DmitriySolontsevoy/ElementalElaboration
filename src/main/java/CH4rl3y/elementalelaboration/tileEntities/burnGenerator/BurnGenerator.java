@@ -13,6 +13,7 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
@@ -30,11 +31,12 @@ public class BurnGenerator extends BlockContainer {
 
     public BurnGenerator() {
         super(Material.iron);
-        setBlockName(TileEntityNames.BURN_GENERATOR);
-        setHardness(4.0F);
-        setResistance(15.0F);
-        setHarvestLevel("pickaxe", 2);
-        setCreativeTab(Constants.creativeTab);
+        this.setBlockName(TileEntityNames.BURN_GENERATOR);
+        this.setHardness(4.0F);
+        this.setResistance(15.0F);
+        this.setHarvestLevel("pickaxe", 2);
+        this.setCreativeTab(Constants.creativeTab);
+        this.isBlockContainer = true;
     }
     
     @Override
@@ -84,9 +86,10 @@ public class BurnGenerator extends BlockContainer {
     public final ArrayList<ItemStack> getDrops(World world, int x, int y, int z, int metadata, int fortune) {
     	ArrayList<ItemStack> drops = new ArrayList<ItemStack>();
     	ItemStack stack = new ItemStack(
-                GameRegistry.findBlock(
-                        Constants.MOD_ID, TileEntityNames.BURN_GENERATOR
-                ), 1, storage);
+    	        GameRegistry.findBlock(
+    	                Constants.MOD_ID, TileEntityNames.BURN_GENERATOR
+                ), 1, storage
+        );
     	drops.add(stack);
     	return drops;
     }
@@ -100,17 +103,11 @@ public class BurnGenerator extends BlockContainer {
 
         if (l == 0) {
             world.setBlockMetadataWithNotify(x, y, z, 2, 2);
-        }
-
-        if (l == 1) {
+        } else if (l == 1) {
             world.setBlockMetadataWithNotify(x, y, z, 5, 2);
-        }
-
-        if (l == 2) {
+        } else if (l == 2) {
             world.setBlockMetadataWithNotify(x, y, z, 3, 2);
-        }
-
-        if (l == 3) {
+        } else {
             world.setBlockMetadataWithNotify(x, y, z, 4, 2);
         }
     }
